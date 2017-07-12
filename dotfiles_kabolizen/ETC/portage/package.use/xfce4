@@ -1,0 +1,4 @@
+xfce-extra/tumbler jpeg pdf curl ffmpeg raw
+# required by media-video/cheese-3.22.1::gentoo
+# required by cheese (argument)
+>=media-libs/gst-plugins-base-1.10.3 theora

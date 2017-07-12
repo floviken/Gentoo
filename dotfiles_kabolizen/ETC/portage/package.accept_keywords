@@ -1,0 +1,162 @@
+x11-terms/rxvt-unicode ~amd64
+x11-plugins/vicious ~amd64
+dev-qt/* ~amd64
+# required by iwl8000-ucode (argument)
+=sys-firmware/iwl8000-ucode-16.242414.0 ~amd64
+x11-drivers/xf86-input-libinput ~amd64
+dev-libs/libinput ~amd64
+# required by google-chrome (argument)
+=www-client/google-chrome-56.0.2924.87 ~amd64
+kde-plasma/sddm-kcm ~amd64
+# required by dev-qt/qtnetwork-5.7.1::gentoo[-connman,networkmanager]
+# required by dev-qt/qtxmlpatterns-5.7.1::gentoo
+# required by dev-qt/qtdeclarative-5.7.1::gentoo[xml]
+# required by kde-plasma/sddm-kcm-5.9.3::gentoo
+# required by sddm-kcm (argument)
+=dev-qt/qtdbus-5.7.1 ~amd64
+# required by kde-plasma/plasma-workspace-5.8.5::gentoo
+# required by kde-plasma/khotkeys-5.8.5::gentoo
+# required by kde-plasma/plasma-meta-5.8.5::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-qt/qtdeclarative-5.7.1 ~amd64
+# required by dev-qt/qtwidgets-5.7.1::gentoo
+# required by dev-qt/qtsvg-5.7.1::gentoo
+# required by kde-plasma/kde-cli-tools-5.9.3::gentoo
+# required by kde-plasma/sddm-kcm-5.9.3::gentoo
+# required by sddm-kcm (argument)
+=dev-qt/qtgui-5.7.1 ~amd64
+# required by dev-qt/qtdeclarative-5.7.1::gentoo[xml]
+# required by kde-plasma/sddm-kcm-5.9.3::gentoo
+# required by sddm-kcm (argument)
+=dev-qt/qtnetwork-5.7.1 ~amd64
+# required by dev-qt/qtdbus-5.7.1::gentoo
+# required by dev-qt/qtnetwork-5.7.1::gentoo[-connman,networkmanager]
+# required by dev-qt/qtxmlpatterns-5.7.1::gentoo
+# required by dev-qt/qtdeclarative-5.7.1::gentoo[xml]
+# required by kde-plasma/sddm-kcm-5.9.3::gentoo
+# required by sddm-kcm (argument)
+=dev-qt/qtcore-5.7.1-r1 ~amd64
+# required by kde-frameworks/khtml-5.29.0::gentoo[X]
+# required by kde-apps/kio-extras-16.08.3::gentoo
+# required by kde-plasma/plasma-workspace-5.8.5::gentoo
+# required by kde-plasma/khotkeys-5.8.5::gentoo
+# required by kde-plasma/plasma-meta-5.8.5::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-qt/qtx11extras-5.7.1 ~amd64
+# required by kde-plasma/kscreen-5.8.5::gentoo
+# required by kde-plasma/plasma-meta-5.8.5::gentoo
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kde-cli-tools-5.9.3 ~amd64
+# required by net-wireless/wpa_supplicant-2.6::gentoo[qt5]
+# required by net-misc/networkmanager-1.4.4-r1::gentoo[wifi]
+# required by dev-qt/qtnetwork-5.7.1::gentoo[networkmanager]
+# required by dev-qt/qtxmlpatterns-5.7.1::gentoo
+# required by dev-qt/qtdeclarative-5.7.1::gentoo[xml]
+# required by kde-plasma/sddm-kcm-5.9.3::gentoo
+# required by sddm-kcm (argument)
+=dev-qt/qtsvg-5.7.1 ~amd64
+# required by dev-qt/qtdeclarative-5.7.1::gentoo[-test]
+# required by kde-plasma/sddm-kcm-5.9.3::gentoo
+# required by sddm-kcm (argument)
+=dev-qt/qttest-5.7.1 ~amd64
+# required by dev-qt/qtdeclarative-5.7.1::gentoo[xml]
+# required by kde-plasma/sddm-kcm-5.9.3::gentoo
+# required by sddm-kcm (argument)
+=dev-qt/qtxmlpatterns-5.7.1 ~amd64
+# required by dev-qt/qtdeclarative-5.7.1::gentoo[widgets]
+# required by kde-plasma/sddm-kcm-5.9.3::gentoo
+# required by sddm-kcm (argument)
+=dev-qt/qtwidgets-5.7.1 ~amd64
+# required by kde-plasma/sddm-kcm-5.8.6::gentoo
+# required by sddm-kcm (argument)
+=kde-plasma/kde-cli-tools-5.8.6 ~amd64
+# required by skype (argument)
+=net-im/skype-4.3.0.37-r6 ~amd64
+# required by dev-util/electron-1.3.13-r1::gentoo
+# required by app-editors/atom-1.13.1::gentoo
+# required by app-editors/atom (argument)
+=app-eselect/eselect-electron-1.0.0 ~amd64
+# required by app-editors/atom (argument)
+=app-editors/atom-1.13.1 ~amd64
+# required by app-editors/atom-1.13.1::gentoo
+# required by app-editors/atom (argument)
+=dev-util/electron-1.3.13-r1 ~amd64
+app-portage/layman ~amd64
+# required by asus-keyboard-backlight (argument)
+=app-laptop/asus-keyboard-backlight-0.1 ~amd64
+# required by dev-qt/qtcore-5.7.1-r2::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-libs/double-conversion-2.0.1 ~amd64
+# required by kde-plasma/oxygen-5.8.6::gentoo
+# required by kde-plasma/plasma-meta-5.8.6::gentoo
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kde-cli-tools-5.9.4 ~amd64
+# required by teamviewer (argument)
+=net-misc/teamviewer-12.0.71510 ~amd64
+# required by xfce4-gvfs-mount (argument)
+=xfce-extra/xfce4-gvfs-mount-0.0.4 ~amd64
+# required by xfce-extra/xfce4-composite-editor (argument)
+=xfce-extra/xfce4-composite-editor-0 ~amd64
+# required by xfce4-alsa-plugin (argument)
+=xfce-extra/xfce4-alsa-plugin-0.1.1 ~amd64
+# required by cairo-dock (argument)
+=x11-misc/cairo-dock-2.3.0.2 ~amd64
+# required by games-util/steam-meta (argument)
+=games-util/steam-meta-0-r20160817 ~amd64
+# required by games-util/steam-meta-0-r20160817::steam-overlay
+# required by games-util/steam-meta (argument)
+=games-util/steam-client-meta-0-r20160828 ~amd64
+# required by games-util/steam-meta-0-r20160817::steam-overlay
+# required by games-util/steam-meta (argument)
+=games-util/steam-launcher-1.0.0.54-r1 ~amd64
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by games-util/steam-meta (argument)
+=games-util/steam-games-meta-0-r20160812 ~amd64
+# required by urxvtconfig (argument)
+=x11-misc/urxvtconfig-1.0 ~amd64
+app-emulation/wine ~amd64
+# required by playonlinux (argument)
+=app-emulation/playonlinux-4.2.10-r1 ~amd64
+# required by kde-apps/khelpcenter-16.12.3::gentoo
+# required by kde-apps/kdecore-meta-16.12.3::gentoo[handbook]
+# required by kde-apps/kde-apps-meta-16.12.3-r1::gentoo
+# required by kde-apps/kde-meta-16.12.3::gentoo
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kde-cli-tools-5.9.5-r1 ~amd64
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=app-editors/atom-1.16.0 ~amd64
+x11-wm/awesome
+app-admin/conky
+sys-fs/udisks ~amd64
+# required by rcm (argument)
+=app-admin/rcm-1.3.1 ~amd64
+# required by luvcview (argument)
+=media-video/luvcview-0.2.6 ~amd64
+# required by kde-plasma/sddm-kcm-5.10.1::gentoo
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kde-cli-tools-5.10.1 ~amd64
+# required by kde-plasma/sddm-kcm-5.10.2::gentoo
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kde-cli-tools-5.10.2 ~amd64
+# required by skypeforlinux (argument)
+=net-im/skypeforlinux-5.3.0.1 ~amd64
+# required by blueman (argument)
+=net-wireless/blueman-2.0.4 ~amd64
+# required by kde-plasma/sddm-kcm-5.10.3::gentoo
+# required by @selected
+# required by @world (argument)
+=kde-plasma/kde-cli-tools-5.10.3 ~amd64
+# required by teamviewer (argument)
+=net-misc/teamviewer-12.0.76279 ~amd64
+# required by gitkraken (argument)
+=dev-vcs/gitkraken-9999-r9999 ~amd64
+# required by gitkraken-bin (argument)
+=dev-vcs/gitkraken-bin-2.6.0 ~amd64

@@ -1,0 +1,4 @@
+app-admin/conky X truetype hddtemp nano-syntax wifi -ipv6
+media-sound/audacious gtk3 -qt5
+media-sound/audacious gtk3 -gtk -qt5
+media-plugins/audacious-plugins gtk3 -gtk -qt5
