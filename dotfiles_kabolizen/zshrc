@@ -1,0 +1,93 @@
+# Oh-My-Zsh
+ZSH=~/.oh-my-zsh
+export DEFAULT_USER="$USER"
+
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=10000
+SAVEHIST=10000
+
+# Set to this to use case-sensitive completion
+CASE_SENSITIVE="true"
+
+# Comment this out to disable bi-weekly auto-update checks
+DISABLE_AUTO_UPDATE="true"
+
+# Uncomment following line if you want red dots to be displayed while waiting 
+for comp$
+COMPLETION_WAITING_DOTS="true"
+
+# Default Programs
+
+export EDITOR="nano"
+export PAGER="less"
+export BROWSER="google-chrome-stable"
+export MOVPLAY="vlc"
+export PICVIEW="feh"
+export SNDPLAY="vlc"
+export TERMINAL="xterm"
+export PULSE_LATENCY_MSEC=60
+export TERM="xterm-256color"
+
+# File Extensions
+for ext in html org php com net no;    do alias -s $ext=$BROWSER; done
+for ext in txt tex py PKGBUID;        do alias -s $ext=$EDITOR; done
+for ext in png jpg gif;            do alias -s $ext=$PICVIEW; done
+for ext in mpg wmv avi mkv;        do alias -s $ext=$MOVPLAY; done
+for ext in wav mp3 ogg;            do alias -s $ext=$SNDPLAY; done
+
+########################################################
+######################## ALIASES #######################
+########################################################
+
+# Fonts
+alias Fonts='fc-cache -vf ~/.fonts'
+alias font-check='echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"'
+
+## Packages
+alias extract='dtrx'
+alias gz='tar -xzf'
+alias xz='tar -xJf'
+alias bz='tar -xvjf'
+alias bz2='tar -jxvf'
+
+## X Resources Stuff
+alias eX='nano ~/.Xresources'
+alias XTR='xrdb -merge ~/.Xresources'
+
+## Zsh Stuff
+alias eZ='nano ~/.zshrc'
+alias Z='source ~/.zshrc'
+
+# SSH
+alias Kabolibot='ssh enki@10.0.100.160'
+alias Kabolibot-X='ssh -X enki@10.0.100.160'
+alias Enkibox='ssh enki@10.0.100.152'
+alias Enkibox-X='ssh -X enki@10.0.100.152'
+
+## System
+alias Shutdown='sudo shutdown -P now'
+alias Suspend='sudo pm-suspend'
+
+## Gentoo
+#alias find-config='find /etc -iname '._cfg????_*''
+alias HowLong='genlop -t'
+alias OneShot='emerge --oneshot portage'
+alias Rebuild='revdep-rebuild -v -- --ask --keep-going'
+#alias sync='time emerge --sync'
+alias S='sudo emerge -s'
+alias I='sudo emerge -av'
+alias Uworld='sudo emerge --ask --verbose --update --newuse --deep @world'
+alias Uworld-bdeps='sudo emerge --ask --newuse --update --deep --with-bdeps=y 
+@world'
+alias Esync='sudo eix-sync'
+alias Eupdate='sudo eix --update'
+alias cdP='cd /etc/portage && sudo su'
+alias cdU='cd /etc/portage/package.use && sudo su'
+alias cdK='cd /etc/portage/package.keywords && sudo su'
+alias eM='sudo vim /etc/portage/make.conf'
+
+##########################################################
+########################## MODS ##########################
+##########################################################
+
